@@ -1,5 +1,10 @@
 # mechta-test
 
+## Важно
+Для mock server использовался postman.
+По умолчанию есть данные только для этих городов: nur-sultan, shymkent, almaty, moscow.
+При вводе других значений мок сервер всегда выдает ответ исходя из своих алгоритмов сравнения.
+
 ## Project setup
 ```
 npm install

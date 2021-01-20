@@ -34,7 +34,7 @@ export default {
     },
     async getDeliveries(cityName) {
       try {
-        const response = await getDeliveryInfo(cityName);
+        const response = await getDeliveryInfo(cityName.toLowerCase());
         this.deliveries = response.data;
       } catch (e) {
         console.log(e);
